@@ -1,0 +1,42 @@
+{
+    "clash_detection_config": {
+        "tolerance_mm": 1.0,
+        "categories": {
+            "architecture": {
+                "enabled": true,
+                "items": ["Walls", "Floors", "Roofs", "Ceilings", "Stairs", "Railings"]
+            },
+            "structure": {
+                "enabled": true,
+                "items": ["Columns", "Beams", "Foundations", "Structural Framing"]
+            },
+            "mep": {
+                "enabled": true,
+                "items": ["Ducts", "Pipes", "Cable Trays", "Conduits", "Equipment"]
+            }
+        },
+        "detection_rules": {
+            "ignore_joined_elements": true,
+            "check_insulation": false,
+            "check_linked_models": false,
+            "minimum_clash_volume": 0.001
+        },
+        "visualization": {
+            "default_color": "Red",
+            "transparency": 50,
+            "auto_zoom": true,
+            "create_3d_view": false
+        },
+        "reporting": {
+            "auto_export": false,
+            "default_format": "Excel",
+            "include_screenshots": true,
+            "group_by_level": true
+        },
+        "performance": {
+            "max_elements_per_check": 1000,
+            "use_parallel_processing": true,
+            "cache_geometry": true
+        }
+    }
+}

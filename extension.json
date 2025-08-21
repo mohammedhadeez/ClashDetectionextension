@@ -1,0 +1,7 @@
+# Extension metadata
+name = "Clash Detection"
+description = "Advanced clash detection tools for Revit"
+author = "Your Name"
+version = "1.0.0"
+min_revit_version = "2020"
+max_revit_version = "2025"

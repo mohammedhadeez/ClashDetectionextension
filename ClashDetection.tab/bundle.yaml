@@ -1,0 +1,10 @@
+layout:
+  - Detection:
+    - Run Detection
+    - Quick Check  
+    - Settings
+  - Reports:
+    - Export Report
+    - View History
+  - Visualization:
+    - Highlight Clashes
